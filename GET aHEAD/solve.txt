@@ -1,0 +1,7 @@
+Đề: Find the flag being held on this server to get ahead of the competition http://mercury.picoctf.net:34561/
+
+Đề kêu tìm flag được để trên server, làm cách nào để server trả về kết quả cho ta, đó là dùng http request method, HEAD: giống với GET nhưng response trả về không có body, chỉ có header
+
+Có thể dùng burp suite
+
+Linux dùng lệnh curl http://mercury.picoctf.net:34561/index.php -I 

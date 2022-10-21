@@ -1,0 +1,5 @@
+Đề: Who doesn't love cookies? Try to figure out the best one. http://mercury.picoctf.net:29649/
+
+thay đổi cookie gửi lên server từ 0 đến 30 sẽ ra flag
+cookie = 18 ra flag
+dùng chức năng intruder của burp suite hoặc code python cũng ra

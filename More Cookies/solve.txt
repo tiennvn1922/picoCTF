@@ -1,0 +1,5 @@
+I forgot Cookies can Be modified Client-side, so now I decided to encrypt them! http://mercury.picoctf.net:34962/
+
+Cookie: auth_name=WisxQnJDOUJSM2ZVelVCL0lLcVE4Um53em8xVHp6ZDQwQjhYZFptRGxIVTdYYktQbXF2TGE2aHlCVWlaL1JLanpDSGsrQXEwMnRQcmJVYWZsUVg1czBLU29GZU5FWjRkdGlFYUJkbTdmWE04Ykt2U2RMelg5RGQwSmY3bThHdjU=; name=-1
+
+chưa hiểu cách làm

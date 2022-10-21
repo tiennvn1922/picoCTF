@@ -1,0 +1,25 @@
+Đề: There is some interesting information hidden around this site http://mercury.picoctf.net:39698/. Can you find it?
+Dạng bài tìm file ẩn
+
+<!-- Here's the first part of the flag: picoCTF{t -->
+/* CSS makes the page look nice, and yes, it also has part of the flag. Here's part 2: h4ts_4_l0 */
+/* How can I keep Google from indexing my website? */
+
+Tệp robots.txt cho trình thu thập dữ liệu của công cụ tìm kiếm biết có thể truy cập vào những URL nào trên trang web của bạn. Tệp này chủ yếu dùng để ngăn trình thu thập dữ liệu gửi quá nhiều yêu cầu cho trang web; đây không phải là cơ chế để ẩn một trang web khỏi Google. Để ẩn một trang web khỏi Google, hãy chặn lập chỉ mục bằng noindex hoặc bảo vệ trang đó bằng mật khẩu.
+
+User-agent: *
+Disallow: /index.html
+# Part 3: t_0f_pl4c
+# I think this is an apache server... can you Access the next flag?
+
+# Part 4: 3s_2_lO0k
+# I love making websites on my Mac, I can Store a lot of information there.
+solve: ./htaccess
+
+Congrats! You completed the scavenger hunt. Part 5: _fa04427c}
+solve: .DS_Store
+
+bruteforce: gobuster dir -u http://mercury.picoctf.net:39698/ -w /usr/share/dirb/wordlists/big.txt
+
+
+picoCTF{th4ts_4_l0t_0f_pl4c3s_2_lO0k_fa04427c}
