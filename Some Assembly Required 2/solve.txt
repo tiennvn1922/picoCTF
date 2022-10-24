@@ -1,0 +1,4 @@
+http://mercury.picoctf.net:7319/index.html
+
+xor với 8 là ra
+chưa hiểu solution nên bỏ qua

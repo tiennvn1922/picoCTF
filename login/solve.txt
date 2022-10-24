@@ -1,0 +1,6 @@
+My dog-sitter's brother made this website but I can't get in; can you help?
+login.mars.picoctf.net
+
+base64 decode
+admin
+picoCTF{53rv3r_53rv3r_53rv3r_53rv3r_53rv3r}

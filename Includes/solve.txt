@@ -1,0 +1,4 @@
+Can you get the flag?
+Go to this website and see what you can discover.
+xem file js và css là ra flag, này dễ
+picoCTF{1nclu51v17y_1of2_f7w_2of2_b8f4b022}
