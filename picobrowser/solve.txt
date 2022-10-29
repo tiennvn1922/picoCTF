@@ -1,0 +1,5 @@
+This website can be rendered only by picobrowser, go and catch the flag! https://jupiter.challenges.picoctf.org/problem/50522/ (link) or http://jupiter.challenges.picoctf.org:50522
+
+User-Agent: picobrowser Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.5304.63 Safari/537.36
+
+picoCTF{p1c0_s3cr3t_ag3nt_51414fa7}

@@ -1,2 +1,0 @@
-Try to recover the flag stored on this website http://mercury.picoctf.net:2148/
-học php đi rồi biết làm

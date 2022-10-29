@@ -1,0 +1,6 @@
+Try to recover the flag stored on this website http://mercury.picoctf.net:2148/
+học php đi rồi biết làm
+https://viblo.asia/p/khai-thac-php-deserialization-07LKXbLPlV4
+cookie sẽ được serialize rồi base64_encode rồi urlenconde
+truyền một cookie 'login' có giá trị là TzoxMDoiYWNjZXNzX2xvZyI6MTp7czo4OiJsb2dfZmlsZSI7czo3OiIuLi9mbGFnIjt9
+
